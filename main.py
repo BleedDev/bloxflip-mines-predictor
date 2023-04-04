@@ -6,7 +6,7 @@ cs = cloudscraper.create_scraper()
 
 
 
-auth = "yourauth" #place yur auth
+auth = "yourauth" #place your auth
 
 
 r = cs.get('https://rest-bf.blox.land/games/mines/history', headers={"x-auth-token": auth}, params={'size': '1','page': '0'})
